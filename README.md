@@ -77,3 +77,25 @@ This workshop has laid the foundation for a proactive and robust security postur
 - Ensuring ongoing training for all team members on security best practices.
 
 The collaboration across teams demonstrates Alpine FinTech Solutions' commitment to delivering a secure and resilient fintech application to its users.
+
+## **Threat Modeling Process Summary**
+```mermaid
+mindmap
+  root((Threat Modeling Process))
+    STRIDE/MITRE/Kill Chain
+      Risk Evaluation
+      ::icon(fa fa-book)
+      Critical Asset Identification
+        Workshop Planning and Scoping
+    Controls Required
+      Risks<br/>Mitigations
+      Risk Summary
+        Remediation Workflow
+            Slack
+            JIRA
+    Scenarios
+      Threat 1: AI-driven Phishing
+      Threat 2: Algorithm Manipulation
+      Threat 3: SQL Injection
+      Threat 4: Insider Threat
+```
