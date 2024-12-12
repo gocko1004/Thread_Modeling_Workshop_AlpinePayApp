@@ -7,7 +7,7 @@ This workshop was conducted to identify potential threats and vulnerabilities ta
 The workshop included participation from:
 - AlpinePay Engineering Team
 - Product Managers
-- DevOps Engineers
+- DevEx Engineers
 - DevSecOps Team
 
 ## **Scope**
@@ -28,13 +28,47 @@ A total of **5 high-risk** and **2 medium-risk** threats were identified. These 
 
 ## **Controls Required**
 To mitigate the identified risks, the following controls are recommended:
-- Conduct regular security audits focused on AlpinePay.
-- Implement robust patch management to ensure software and dependencies are up-to-date.
-- Provide comprehensive phishing awareness training for employees.
-- Deploy a Web Application Firewall (WAF) to filter and monitor traffic.
-- Enable Multi-Factor Authentication (MFA) to secure user accounts.
-- Continuously monitor network traffic to detect suspicious activities.
-- Introduce Role-Based Access Control (RBAC) to limit access to sensitive data and features.
+
+1. **Regular Security Audits**:
+   - Perform periodic vulnerability assessments and penetration tests.
+   - Focus on critical systems such as APIs, authentication mechanisms, and data storage.
+
+2. **Enhanced Patch Management**:
+   - Automate the patching process for third-party libraries and dependencies.
+   - Maintain a robust inventory of all software components to prioritize high-risk patches.
+
+3. **Comprehensive Phishing Awareness Training**:
+   - Provide simulated phishing exercises to employees.
+   - Establish clear procedures for reporting suspicious emails.
+
+4. **Web Application Firewall (WAF):**
+   - Deploy a cloud-based WAF to inspect and filter web traffic.
+   - Continuously update WAF rules to defend against evolving threats.
+
+5. **Multi-Factor Authentication (MFA):**
+   - Enforce MFA across all user and administrative accounts.
+   - Integrate biometric authentication for additional security.
+
+6. **Passwordless Authentication (Alternative to MFA):**
+   - Implement passwordless controls such as device-based authentication using FIDO2/WebAuthn.
+   - Use biometric authentication or hardware security keys to enhance usability and security.
+   - Ensure fallback mechanisms and recovery processes are in place for lost devices or credentials.
+
+7. **Continuous Network Monitoring:**
+   - Implement an Intrusion Detection and Prevention System (IDPS) to identify anomalies.
+   - Use machine learning-based tools for real-time threat detection.
+
+8. **Role-Based Access Control (RBAC):**
+   - Regularly review and update role assignments to reflect organizational changes.
+   - Implement the principle of least privilege to restrict access to sensitive resources.
+
+9. **Incident Response Plan:**
+   - Develop and test a comprehensive incident response plan.
+   - Ensure alignment with industry best practices like NIST Cybersecurity Framework.
+
+10. **Data Encryption:**
+   - Apply end-to-end encryption for sensitive data in transit and at rest.
+   - Use modern encryption standards such as AES-256 for securing critical data.
 
 ## **Conclusion**
 This workshop has laid the foundation for a proactive and robust security posture for AlpinePay by identifying vulnerabilities and establishing actionable controls. Moving forward, the focus will remain on:
