@@ -1,12 +1,12 @@
 ```mermaid
 sequenceDiagram
-    participant Insider
-    participant AdminPanel
-    participant ModelStorage
+    participant Attacker
+    participant Application
+    participant Database
 
-    Insider->>AdminPanel: Access model controls with privileged credentials
-    AdminPanel->>ModelStorage: Retrieve AI model and associated data
-    ModelStorage->>Insider: Return proprietary AI model
-    Insider->>ModelStorage: Modify or sabotage model functionality
+    Attacker->>Application: Inject malicious SQL query
+    Application->>Database: Execute compromised query
+    Database->>Attacker: Return unauthorized data
+    Database->>Application: Potential data corruption
 
 
