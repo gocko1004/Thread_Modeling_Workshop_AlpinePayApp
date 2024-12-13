@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     USER }|..|{ TRANSACTION : "Initiates"
     USER ||--o{ ACCOUNT : "Has"
