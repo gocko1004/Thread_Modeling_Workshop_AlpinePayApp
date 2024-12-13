@@ -12,14 +12,20 @@ The workshop included participation from:
 
 ## **Scope**
 Four threat scenarios were evaluated during the workshop:
+
 1. **AI-driven phishing using advanced multi-channel and deepfake techniques**:
    - Attackers leverage generative AI to create highly personalized and convincing phishing emails. These emails may mimic trusted sources or ongoing business contexts to increase the likelihood of user engagement.
    - Enhanced techniques, such as voice deepfakes, may be used to impersonate executives or trusted colleagues in spear-phishing attacks.
    - Multi-channel phishing (email, SMS, and social media) amplifies the campaign's reach and success rate.
 
-2. **Manipulation of automated trading algorithms.**
-3. **SQL injection attack** exploiting API vulnerabilities.
-4. **Insider threat** involving the theft of proprietary AI models.
+2. **Manipulation of automated trading algorithms**:
+   - Attackers target the AI-driven trading algorithms to inject malicious data, manipulate trade logic, or exploit vulnerabilities in algorithmic processing.
+
+3. **SQL injection attack** exploiting API vulnerabilities:
+   - Malicious actors exploit weak input validation and API vulnerabilities to execute unauthorized queries, exfiltrate sensitive data, and manipulate database records.
+
+4. **Insider threat** involving the theft of proprietary AI models:
+   - An insider misuses their privileged access to steal sensitive AI model data or sabotage functionality.
 
 ## **Methodology**
 The following frameworks and tools were utilized during the workshop:
@@ -71,8 +77,8 @@ To mitigate the identified risks, the following controls are recommended:
    - Ensure alignment with industry best practices like NIST Cybersecurity Framework.
 
 10. **Data Encryption:**
-   - Apply end-to-end encryption for sensitive data in transit and at rest.
-   - Use modern encryption standards such as AES-256 for securing critical data.
+    - Apply end-to-end encryption for sensitive data in transit and at rest.
+    - Use modern encryption standards such as AES-256 for securing critical data.
 
 ## **Conclusion**
 This workshop has laid the foundation for a proactive and robust security posture for AlpinePay by identifying vulnerabilities and establishing actionable controls. Moving forward, the focus will remain on:
@@ -102,6 +108,4 @@ mindmap
       Threat 2: Algorithm Manipulation
       Threat 3: SQL Injection
       Threat 4: Insider Threat
-```
 
-```
