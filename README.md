@@ -12,7 +12,11 @@ The workshop included participation from:
 
 ## **Scope**
 Four threat scenarios were evaluated during the workshop:
-1. **AI-generated phishing campaign** targeting administrative credentials.
+1. **AI-driven phishing using advanced multi-channel and deepfake techniques**:
+   - Attackers leverage generative AI to create highly personalized and convincing phishing emails. These emails may mimic trusted sources or ongoing business contexts to increase the likelihood of user engagement.
+   - Enhanced techniques, such as voice deepfakes, may be used to impersonate executives or trusted colleagues in spear-phishing attacks.
+   - Multi-channel phishing (email, SMS, and social media) amplifies the campaign's reach and success rate.
+
 2. **Manipulation of automated trading algorithms.**
 3. **SQL injection attack** exploiting API vulnerabilities.
 4. **Insider threat** involving the theft of proprietary AI models.
@@ -98,4 +102,6 @@ mindmap
       Threat 2: Algorithm Manipulation
       Threat 3: SQL Injection
       Threat 4: Insider Threat
+```
+
 ```
