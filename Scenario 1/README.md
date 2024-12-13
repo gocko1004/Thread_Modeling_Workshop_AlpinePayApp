@@ -23,7 +23,7 @@
 7. **Actions on Objectives**:
    - **Exfiltrate financial data:** Extract sensitive transaction records and customer data.
    - **Manipulate AI trading algorithms:** Inject unauthorized changes to create financial instability or profit.
-   - **Trigger fraudulent transactions:** Conduct unauthorized transfers or disrupt payment processes.
+   - **Trigger fraudulent transactions:** Conduct unauthorized transfers or disrupt payment processes..
 
 ```mermaid
 flowchart LR
