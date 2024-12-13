@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     subgraph User Interaction
         A[User] -->|HTTP Requests| B[Web Server]
